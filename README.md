@@ -10,10 +10,16 @@ In the Theater Outcomes vs Launch Date visualization, I first created a Pivot Ta
 
 ### The line chart below displays Theater Outcomes vs Launch Date
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88041368/129758178-ba229867-652a-49a2-b18a-bd6550b9631a.png)
+
 
 To visualize the Outcome Results Based on Goals, I grouped the goals into a range of values. Next I populated columns that showed the number of campaigns based on each outcome and their corresponding percentages based on total projects within each goal range. To populate the number of successful, failed and canceled projects for each goal range, I used the COUNTIFS function. The criteria in this function allowed me to specify the range of the goals considered, the outcome type, and the subcategory as plays. It is worth noting that no campaigns that were identified under the plays subcategory were canceled. To solve for the Total Projects within each goal range, I used the SUM function. Lastly, to populate the percentage of successful, failed and canceled outcomes I used the corresponding number field (previously populated utilizing the COUNTIFS function), divided by the Total Projects and multiplied by 100.
 
 ### The line chart below displays Outcomes Based on Goals
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88041368/129758317-99dc50d3-7548-4c49-b5a6-afb44cf6d408.png)
+
+
 
 ## Challenges:
 
